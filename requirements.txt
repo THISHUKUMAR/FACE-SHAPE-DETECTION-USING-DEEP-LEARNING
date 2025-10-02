@@ -1,0 +1,7 @@
+torch
+torchvision
+streamlit
+streamlit-webrtc
+Pillow
+matplotlib
+streamlit-webrtc
