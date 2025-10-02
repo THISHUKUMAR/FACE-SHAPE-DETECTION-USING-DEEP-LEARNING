@@ -69,7 +69,7 @@ st.markdown("## Face Shape Reference")
 st.markdown("Here are the common face shapes and their descriptions:")
 
 face_shapes = [
-    {"name": "Round", "description": "Soft curves, cheeks and length roughly same width.", "path": "photos/round(1).jpg"},
+    {"name": "Round", "description": "Soft curves, cheeks and length roughly same width.", "path": "photos/round(9).jpg"},
     {"name": "Heart", "description": "Wider forehead & cheekbones, narrow chin.", "path": "photos/heart(1).jpg"},
     {"name": "Oval", "description": "Longer than wide, forehead slightly wider than chin.", "path": "photos/oval(1).jpg"},
     {"name": "Square", "description": "Strong jawline, forehead & jawline approx same width.", "path": "photos/square(3).jpg"},
