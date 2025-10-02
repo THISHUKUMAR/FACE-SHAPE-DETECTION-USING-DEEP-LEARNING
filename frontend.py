@@ -61,8 +61,8 @@ if uploaded_file:
             pred_label = torch.argmax(probs, dim=1).item()
             pred_prob = probs.max().item()
 
-        st.success(f"Prediction: {class_names[pred_label]} | Confidence: {pred_prob*100:.2f}%")
-        st.image(image, caption=f"Predicted: {class_names[pred_label]}", use_container_width=True)
+        st.success(f"Prediction: {class_names[pred_label]}")
+        # st.image(image, caption=f"Predicted: {class_names[pred_label]}", use_container_width=True)
 
 # ----------------- Face Shape Reference -----------------
 st.markdown("## Face Shape Reference")
